@@ -1,19 +1,20 @@
 :root {
   --background-color: #222831;
   --lighter-color: #393E46;
-  --text-color: #7abec1;
+  --text-color: #c7e1ff;
   --hilight-color: #EEEEEE;
 }
 * {
   font-family: 'Roboto', serif;
   font-size: medium;
-  background-color: var(--background-color);
-  color: var(--text-color);
   margin: 0;
   padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
-
 .header {
+  font-weight: 600;
+  font-size: 33px;
   background-color: var(--lighter-color);
   height: 100px;
 }
