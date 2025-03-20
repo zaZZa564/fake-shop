@@ -13,8 +13,15 @@
   color: var(--text-color);
 }
 .header {
+  height: 60px;
+  padding: 15px;
+  align-items: center;
+  display: flex;
   font-weight: 600;
   font-size: 33px;
   background-color: var(--lighter-color);
-  height: 100px;
+}
+.headerEl {
+  background-color: var(--lighter-color);
+  flex: 1;
 }
