@@ -1,0 +1,12 @@
+:root {
+  --background-color: #222831;
+  --lighter-color: #393E46;
+  --text-color: #7abec1;
+  --hilight-color: #EEEEEE;
+}
+* {
+  font-family: 'Roboto', serif;
+  font-size: medium;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
