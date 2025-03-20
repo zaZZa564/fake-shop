@@ -9,4 +9,11 @@
   font-size: medium;
   background-color: var(--background-color);
   color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: var(--lighter-color);
+  height: 100px;
 }
