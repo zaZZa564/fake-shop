@@ -20,7 +20,7 @@
   align-items: center;
   justify-content: flex-start;
 }
-.logo-svg, .logo-placeholder {
+.header-content {
   background-color: var(--lighter-color);
   font-size: 24px;
   font-weight: 700;
@@ -28,7 +28,7 @@
 }
 input {
   border: solid 2px;
-  border-radius: 4px;
+  border-radius: 6px;
 }
 .search {
   cursor: text;
