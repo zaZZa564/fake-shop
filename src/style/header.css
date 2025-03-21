@@ -30,6 +30,14 @@ input {
   border: solid 2px;
   border-radius: 6px;
 }
+input:focus {
+  outline: none;
+  border: solid 3px;
+  border-radius: 6px;
+  border-color: var(--text-color);
+  color: var(--hilight-color);
+  font-weight: 500;
+}
 .search {
   cursor: text;
   padding: 5px;
