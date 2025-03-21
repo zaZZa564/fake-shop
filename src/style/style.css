@@ -13,3 +13,7 @@
   background-color: var(--background-color);
   color: var(--text-color);
 }
+img {
+  width: 50px;
+  height: auto;
+}

@@ -18,7 +18,7 @@
 .logo {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .header-content {
   background-color: var(--lighter-color);
@@ -41,12 +41,18 @@ input:focus {
 .search {
   cursor: text;
   padding: 5px;
-  flex: 6;
+  flex: 8;
 }
-.about, .sing-in {
+.about, .cart {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
+  padding-left: 45px;
 }
-.sing-in {
+.cart {
+  justify-content: flex-end;
+  padding-left: 0;
+}
+.cart-content {
   margin-right: 25px;
 }

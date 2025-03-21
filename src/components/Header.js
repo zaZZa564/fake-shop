@@ -1,5 +1,6 @@
 import React from "react";
 import logo from '../img/logo.svg';
+import cart from '../img/cart.svg';
 
 class Header extends React.Component {
   render() {
@@ -13,9 +14,10 @@ class Header extends React.Component {
         <div className="headerEl">
           <div className="header-content about">about us</div>
         </div>
-        <div className="headerEl sing-in">
-          <div className="header-content">
-            sing in
+        <div className="headerEl cart">
+          <img src={cart} alt="cart" className="header-content"></img>
+          <div className="header-content cart-content">
+            cart
           </div>
         </div>
       </header>
