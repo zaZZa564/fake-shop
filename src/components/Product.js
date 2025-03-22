@@ -1,6 +1,6 @@
 import React from "react";
 
-class Item extends React.Component {
+class Product extends React.Component {
   render() {
     return(
       <div>placeholder</div>
@@ -8,4 +8,4 @@ class Item extends React.Component {
   }
 }
 
-export default Item
+export default Product
