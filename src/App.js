@@ -7,7 +7,8 @@ class App extends React.Component {
     return(
       <div className="App">
         <Header />
-        <Product />
+        <Product  id='1'/>
+        <Product  id='2'/>
       </div>
     );
   }
