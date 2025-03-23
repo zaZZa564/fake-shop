@@ -1,13 +1,16 @@
 import React from "react";
 import { productList } from "../fetch";
+import '../style/product.css';
 
 class Product extends React.Component {
   render(props) {
     return(
       <div className="product">
-        <h3 className="title">
-          {productList[this.props.id].title}
-        </h3>
+        <div className="title">
+          <strong>
+            {productList[this.props.id].title}
+          </strong>
+        </div>
         <div className="price">
           price: {productList[this.props.id].price}
         </div>
