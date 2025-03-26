@@ -13,7 +13,7 @@ class Product extends React.Component {
           </strong>
         </div>
         <div className="price">
-          price: {productList[this.props.id].price}
+          price: {productList[this.props.id].price}$
         </div>
         {/* <div className="description">
           {productList[this.props.id].description}

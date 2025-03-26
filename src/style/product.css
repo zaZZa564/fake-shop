@@ -4,14 +4,20 @@
   justify-self: center;
 }
 .product {
-  margin-bottom: 25px;
+  margin-bottom: 45px;
   text-align: center;
+  justify-items: center;
 }
 .product-img {
   background-color: var(--placeholder-color);
   height: 250px;
-  width: 350px;
+  width: 325px;
+  margin-bottom: 12px;
 }
 .title strong{
-  font-size: 26px;
+  font-size: 24px;
+}
+.price {
+  font-size: 18px;
+  margin-top: 8px
 }
