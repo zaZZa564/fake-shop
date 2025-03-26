@@ -1,8 +1,9 @@
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(4, 350px);
+  grid-template-columns: repeat(4, 375px);
   justify-self: center;
 }
 .product {
   margin-bottom: 25px;
+  text-align: center;
 }
