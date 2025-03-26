@@ -1,10 +1,12 @@
 .product-grid {
+  margin-top: 22px;
   display: grid;
   grid-template-columns: repeat(4, 375px);
   justify-self: center;
+  gap: 16px ;
 }
 .product {
-  margin-bottom: 45px;
+  margin-bottom: 55px;
   text-align: center;
   justify-items: center;
 }
@@ -13,9 +15,11 @@
   height: 250px;
   width: 325px;
   margin-bottom: 12px;
+  cursor: pointer;
 }
 .title strong{
   font-size: 24px;
+  cursor: pointer;
 }
 .price {
   font-size: 18px;
