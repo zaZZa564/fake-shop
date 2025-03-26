@@ -7,3 +7,11 @@
   margin-bottom: 25px;
   text-align: center;
 }
+.product-img {
+  background-color: var(--placeholder-color);
+  height: 250px;
+  width: 350px;
+}
+.title strong{
+  font-size: 26px;
+}

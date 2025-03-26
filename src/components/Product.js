@@ -6,6 +6,7 @@ class Product extends React.Component {
   render(props) {
     return(
       <div className="product">
+        <div className="product-img"></div>
         <div className="title">
           <strong>
             {productList[this.props.id].title}
