@@ -15,9 +15,6 @@ class Product extends React.Component {
         <div className="price">
           price: {productList[this.props.id].price}$
         </div>
-        {/* <div className="description">
-          {productList[this.props.id].description}
-        </div> */}
       </div>
     );
   }
