@@ -11,8 +11,10 @@
   margin: 0;
   padding: 0;
   border: none;
-  background-color: var(--background-color);
   color: var(--text-color);
+}
+body {
+  background-color: var(--background-color);
 }
 img {
   width: 50px;
