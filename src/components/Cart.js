@@ -1,14 +1,13 @@
 import React from "react";
 
-class About extends React.Component {
+class Cart extends React.Component {
   render() {
     return(
-      <div className="About">
+      <div className="Cart">
         placeholder
       </div>
     );
   }
 }
 
-
-export default About
+export default Cart

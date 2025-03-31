@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import App from "./App";
 import './fetch.js';
 import About from "./components/About.js";
+import Cart from "./components/Cart.js";
 
 // styles
 import './style/style.css';
@@ -17,6 +18,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="about" element={<About />}/>
+      <Route path="cart" element={<Cart />} />
     </Routes>
   </BrowserRouter>
 );
