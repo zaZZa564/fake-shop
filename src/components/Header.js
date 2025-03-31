@@ -1,5 +1,4 @@
 import React from "react";
-import reactRouter, { Router } from 'react-router-dom';
 import logo from '../img/logo.svg';
 import cart from '../img/cart.svg';
 
