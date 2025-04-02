@@ -14,3 +14,9 @@
 .phone {
   cursor: text;
 }
+.info {
+  cursor: text;
+}
+a .footerEl {
+  color: var(--footer-text-color);
+}

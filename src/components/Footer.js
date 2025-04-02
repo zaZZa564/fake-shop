@@ -5,9 +5,17 @@ class Footer extends React.Component {
   render() {
     return(
       <footer className="footer">
-        <div className="footerEl footerAbout">about us</div>
-        <div className="footerEl info">some important info</div>
-        <div className="footerEl phone">+7 (351) 240-04-40</div>
+        <div className="footerEl footerAbout">
+          <a href="http://localhost:3000/about/">
+            about us
+          </a>
+        </div>
+        <div className="footerEl info">
+          some important info
+        </div>
+        <div className="footerEl phone">
+          +7 (351) 240-04-40
+        </div>
       </footer>
     );
   }
