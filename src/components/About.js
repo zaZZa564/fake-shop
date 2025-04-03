@@ -28,6 +28,8 @@ class About extends React.Component {
 
           <h1>Download</h1>
           <h2>To run this project on your desktop you can visit out <a href="https://github.com/zaZZa564/fake-store">page</a></h2>
+          
+          <p>all data has been taken from the <a href="https://fakestoreapi.com/">fakestore api</a></p>
         </div>
         <Footer />
       </div>
