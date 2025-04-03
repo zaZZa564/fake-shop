@@ -6,13 +6,30 @@
 }
 h1 {
   font-size: 36px;
-  margin-bottom: 20px;
 }
 h2 {
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
+}
+.stackH2 {
+  margin-bottom: 0;
 }
 ul {
   list-style-type: none;
+  margin-bottom: 100px;
+}
+li {
   font-size: 18px;
+}
+.aboutContent a {
+  text-decoration: underline;
+  color: var(--text-color);
+  font-size: 20px;
+}
+p {
+  color: var(--lighter-color);
+}
+.aboutContent p a{
+  text-decoration: none;
+  color: var(--lighter-color);
 }
