@@ -9,7 +9,7 @@ class About extends React.Component {
       <div className="About">
         <Header />
         <div className='aboutContent'>
-          <h1>Fake shop</h1>
+          <h1 className="fakeShopH1">Fake shop</h1>
           <h2>pet project that represents how does real online shop works</h2>
 
           <h1>activities</h1>
@@ -28,7 +28,7 @@ class About extends React.Component {
 
           <h1>Download</h1>
           <h2>To run this project on your desktop you can visit out <a href="https://github.com/zaZZa564/fake-store">page</a></h2>
-          
+
           <p>all data has been taken from the <a href="https://fakestoreapi.com/">fakestore api</a></p>
         </div>
         <Footer />
