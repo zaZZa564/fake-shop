@@ -10,7 +10,7 @@ class About extends React.Component {
         <Header />
         <div className='aboutContent'>
           <h1 className="fakeShopH1">Fake shop</h1>
-          <h2>pet project that represents how does real online shop works</h2>
+          <h2>the pet project that represents how does real online shop works</h2>
 
           <h1>activities</h1>
           <h2>Here you can add things to cart, choose amount and create order. Then you have to wait some time and your order will be delivered. Also you can check rate and reviews of the product and search by the key words</h2>
