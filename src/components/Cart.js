@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
+import EmpryCart from "./EmptyCart";
 import '../style/cart.css';
 
 class Cart extends React.Component {
