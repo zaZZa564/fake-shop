@@ -15,7 +15,7 @@ class Cart extends React.Component {
             <div className="cart-delivery"></div>
             <div className="cart-down">
               <div className="cart-payment"></div>
-              <div className="cart-mydata"></div>
+              <div className="cart-data"></div>
             </div>
           </div>
           <div className="cart-right"></div>
