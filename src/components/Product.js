@@ -15,6 +15,7 @@ class Product extends React.Component {
         <div className="price">
           price: {productList[this.props.id].price}$
         </div>
+        <button className="add-to-cart">add to cart</button>
       </div>
     );
   }
